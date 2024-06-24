@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'energizeregular';
+    src: url('../assets/fonts/energize_regular-webfont.woff2') format('woff2'),
+         url('../assets/fonts/energize_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.head__nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+}
+
+.logo__link{
+    text-decoration: none;
+    
+}
+
+.logo{
+    font-family: 'energizeregular';
+    font-size: 32px;
+    
+}
