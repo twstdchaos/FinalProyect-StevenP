@@ -1,13 +1,14 @@
 footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 150px;
+    height: 250px;
 }
 
 .footer__logo{
     justify-self: center;
     align-self: center;
     text-decoration: none;
+    padding-bottom: 45px;
     
 }
 
@@ -27,6 +28,12 @@ footer{
 
 .footer__socials a:visited {
     color: #FF8500;
+}
+
+.insta{
+   display: grid;
+   justify-items: flex-end;
+   padding-right: 10px;
 }
 
 .foot__nav{

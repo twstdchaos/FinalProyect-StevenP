@@ -11,8 +11,11 @@ body{
    color: #fff;
 }
 
+
 .header__section h1{
     margin: 20px 20px;
+    font-size: 60px;
+    text-align: center;
 }
 
 .divider{
@@ -27,6 +30,8 @@ body{
 
 .our__philosophy h2{
     margin: 20px 20px;
+    text-align: center;
+    font-size: 32px;
 }
 
 .our__philosophy p{
