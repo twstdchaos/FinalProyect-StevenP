@@ -4,7 +4,7 @@
 
 body{
     background-color: #000;
-    height: 900px;
+    height: 1000px;
 }
 
 .header__section{
@@ -18,6 +18,7 @@ body{
 .divider{
  color: #fff;
  width: 70%;
+ margin: auto;
 }
 
 .our__philosophy{
@@ -34,12 +35,103 @@ body{
     text-align: justify;
 }
 
-.gallery{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+.gallery__container {
+    display: flex;
+    justify-content: center; /* Centers the gallery horizontally */
+    align-items: center; /* Centers the gallery vertically */
+    width: 100%; /* Ensures full width for centering */
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-.gallery img{
-    width: 250px;
-    height: 250px;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+    gap: 15px;
+    max-width: 1200px; /* Max width for the gallery */
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+   
+}
+
+.section__playlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+}
+
+.sc__text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    padding-left: 20px;
+    color: #fff;
+
+}
+
+.gr__section {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    color: #fff;
+    height: 400px;
+
+}
+
+.gr__heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+
+}
+
+.gr__content-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+.gr__content{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    
+}
+
+.gr__content h3{
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+.gr__content p{
+    text-align: justify;
+    font-size: large;
+}
+
+
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 images per row for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery {
+        grid-template-columns: 1fr; /* 1 image per row for very small screens */
+    }
 }

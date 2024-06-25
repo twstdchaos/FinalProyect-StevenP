@@ -1,0 +1,36 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 150px;
+}
+
+.footer__logo{
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+    
+}
+
+.foot__nav:visited {
+    color: #FF8500;
+}
+
+.footer__logo:visited{
+    color: #FF8500;
+}
+
+.footer__socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.footer__socials a:visited {
+    color: #FF8500;
+}
+
+.foot__nav{
+    text-decoration: none;
+    justify-self: center;
+    align-self: center;
+}

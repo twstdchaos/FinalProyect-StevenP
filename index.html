@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/index.css">
 
 </head>
@@ -57,25 +58,30 @@
     </section>
 
     <!-- Gallery section -->
-    <section class="gallery">
-        
-            <img src="./assets/img/Gallery1.jpg" alt="">
-            <img src="./assets/img/Gallery2.jpg" alt="">
-            <img src="./assets/img/Gallery3.jpg" alt="">
-            <img src="./assets/img/Gallery4.jpg" alt="">
-            <img src="./assets/img/Gallery5.jpg" alt="">
-            <img src="./assets/img/Gallery6.jpg" alt="">
-            <img src="./assets/img/Gallery7.jpg" alt="">
-            <img src="./assets/img/Gallery8.jpg" alt="">
-            <img src="./assets/img/Gallery9.jpg" alt="">
+    <section class="gallery__container">
+        <section class="gallery">
+            
+                <img src="./assets/img/Gallery1.jpg" alt="">
+                <img src="./assets/img/Gallery2.jpg" alt="">
+                <img src="./assets/img/Gallery3.jpg" alt="">
+                <img src="./assets/img/Gallery4.jpg" alt="">
+                <img src="./assets/img/Gallery5.jpg" alt="">
+                <img src="./assets/img/Gallery6.jpg" alt="">
+                <img src="./assets/img/Gallery7.jpg" alt="">
+                <img src="./assets/img/Gallery8.jpg" alt="">
+                <img src="./assets/img/Gallery9.jpg" alt="">
+                <img src="./assets/img/Gallery10.jpg" alt="">
+                <img src="./assets/img/Gallery11.jpg" alt="">
+                <img src="./assets/img/Gallery12.jpg" alt="">
 
+        </section>
     </section>
 
     <hr class="divider">
 
     <!-- Playlist section -->
-    <section>
-        <div>
+    <section class="section__playlist">
+        <div class="sc__frame">
             <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" 
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1384323925&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
                 <a href="https://soundcloud.com/hindie-corporation" title="The Hindie Corporation" target="_blank" style="color: #cccccc; text-decoration: none;">The Hindie Corporation</a> · 
@@ -83,39 +89,54 @@
                     THC Podcast Series 105: Mobius B2B Murdoc</a></div>
         </div>
 
-        <div>
-
+        <div class="sc__text">
+            <h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nulla magni est accusantium eius? 
+            Minima qui possimus a quo similique et id dignissimos natus inventore, beatae reiciendis placeat. Ipsam, nesciunt.
+            </h3>
         </div>
     </section>
 
+    <hr class="divider">
+
     <!-- Ground Rules Section -->
-     <section>
-        <div>
+     <section class="gr__section">
+        <div class="gr__heading">
             <h2>Ground Rules</h2>
         </div>
 
-        <div>
-            <div>
-                <h3></h3>
-                <p></p>
+        <div class="gr__content-container">
+            <div class="gr__content">
+                <h3>No Pictures</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eum expedita aperiam eaque quasi 
+                    molestiae velit dicta alias? Molestiae ipsa earum nemo deserunt omnis, 
+                    perferendis eligendi accusamus aliquam quae animi!</p>
             </div>
-            <div>
-                <h3></h3>
-                <p></p>
+            <div class="gr__content">
+                <h3>No Hate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eum expedita aperiam eaque quasi 
+                    molestiae velit dicta alias? Molestiae ipsa earum nemo deserunt omnis, 
+                    perferendis eligendi accusamus aliquam quae animi!</p>
             </div>
-            <div>
-                <h3></h3>
-                <p></p>
+            <div class="gr__content">
+                <h3>No Violence</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero eum expedita aperiam eaque quasi 
+                    molestiae velit dicta alias? Molestiae ipsa earum nemo deserunt omnis, 
+                    perferendis eligendi accusamus aliquam quae animi!</p>
             </div>
         </div>
      </section>
 
      <footer>
-        <a href="">Logo</a>
-        <a href="">Contact</a>
-        <div>
-            <a href=""><i></i></a>
-            <a href=""><i></i></a>
+        <a href="index.html" class="footer__logo">
+            <h3 class="logo">Concept</h3>
+        </a>
+
+        <a href="#" class="foot__nav">Contact</a>
+
+        <div class="footer__socials">
+            <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-soundcloud fa-2x"></i></a>
         </div>
      </footer>
 
