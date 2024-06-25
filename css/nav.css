@@ -16,21 +16,59 @@
 header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 150px;
+    background-color: #000;
+}
+
+.head__nav{
+    align-content: center;
 }
 
 .head__nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     list-style: none;
+    justify-items: center;
+}
+
+.head__nav ul li a{
+    text-decoration: none;
+
+}
+
+.head__nav ul li a:visited{
+    color: #FF8500;
+}
+
+.head__logo {
+    display: grid;
+    grid-template-rows : 1fr;
 }
 
 .logo__link{
+    display: grid;
+    grid-template-columns: 1fr;
     text-decoration: none;
-    
+    justify-self: center;
 }
 
 .logo{
     font-family: 'energizeregular';
-    font-size: 32px;
+    font-size: 30px;
     
+}
+
+.logo__link:visited{
+    color: #FF8500;
+}
+
+.head__socials{
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.head__socials a:visited{
+    color: #FF8500;
 }

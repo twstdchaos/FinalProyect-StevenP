@@ -1,0 +1,45 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 900px;
+}
+
+.header__section{
+   color: #fff;
+}
+
+.header__section h1{
+    margin: 20px 20px;
+}
+
+.divider{
+ color: #fff;
+ width: 70%;
+}
+
+.our__philosophy{
+    color: #fff;
+}
+
+.our__philosophy h2{
+    margin: 20px 20px;
+}
+
+.our__philosophy p{
+    margin: 20px 20px;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.gallery img{
+    width: 250px;
+    height: 250px;
+}
